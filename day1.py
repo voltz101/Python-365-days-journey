@@ -35,6 +35,6 @@ print("Age:23")
 print("Location:Kathmandu") 
 print("Country:Nepal")
 
-# My mini Project 1 :(my introduction)
+# My mini Project 1 :( printing my introduction)
 
 print("Welcome Everyone to my first ever code."+"My name is Suman Subedi."+"I am 23 years old."+"I live in Kathmandu, Nepal."+"I am a student of BBA."+" I am learning Python programming language."+"I am enjoying it a lot."+"I am very happy to be here in this course."+" I am very excited to learn more about Python programming language."+"I am very thankful to the author of this book for providing me this opportunity to learn Python programming language."+"I am very happy to be here in this course."+"I am very excited to learn more about Python programming language."+"I am very thankful to the author of this book for providing me this opportunity to learn Python programming language."+"I will become a professional python programmer by the end of the course. ")
