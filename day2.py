@@ -68,4 +68,80 @@ last_name=input("What is your last name? ")
 full_name=f"{first_name.title()} {last_name.title()}"
 print(f"Hello, {full_name}! Welcome to Python programming.")
 
+###using strip() method to remove any leading or trailing whitespace from the string.
+first_name=input("What is your first name? ")
+last_name=input("What is your last name? ") 
+first_name=first_name.strip()
+last_name=last_name.strip()     
+full_name=f"{first_name.title()} {last_name.title()}"
+print(f"Hello, {full_name}! Welcome to Python programming.")    
+#using /t amd /n to add a tab and a new line in the string.
+
+
+print("Hello, \tWorld!")  #adds a tab before the word "World"
+print("Hello, \nWorld!")  #adds a new line before the word "World"  
+
+#using rstrip() method to remove any trailing whitespace from the string.
+first_name=input("What is your first name? ")
+last_name=input("What is your last name? ")
+first_name=first_name.rstrip()
+last_name=last_name.rstrip()
+full_name=f"{first_name.title()} {last_name.title()}"
+print(f"Hello, {full_name}! Welcome to Python programming.")
+
+#using lstrip() method to remove any leading whitespace from the string.
+first_name=input("What is your first name? ")
+last_name=input("What is your last name? ")
+first_name=first_name.lstrip()
+last_name=last_name.lstrip()
+full_name=f"{first_name.title()} {last_name.title()}"
+print(f"Hello, {full_name}! Welcome to Python programming.")
+
+#removing prefixesand suffixes from a string using the removeprefix() and removesuffix() methods.
+filename="python_tutorial.txt"
+print(filename.removeprefix("python_"))  #removes the prefix "python_"  
+print(filename.removesuffix(".txt"))  #removes the suffix ".txt"
+
+nostarchurl="https://nostarch.com"
+print(nostarchurl.removeprefix("https://"))  #removes the prefix "https://"
+print(nostarchurl.removesuffix(".com"))  #removes the suffix ".com"
+
+name="Suman Subedi"
+print(name.removeprefix("Suman"))  #removes the prefix "Suman"
+print(name.removesuffix("Subedi"))  #removes the suffix "Subedi"
+
+# try it yourself from the book "Python Crash Course" by Eric Matthes-personal message to the user using f-string and title() method to greet the user.
+user_name=input("What's your Username: ")
+Real_user_name=f"{user_name.title()}"
+print(f"Hello, {Real_user_name}! Welcome to the Python Practice Course! I am absolutely thrilled to have you here.Whether you are looking to automate boring tasks, dive into data science, or build your very first app, you’ve taken a massive step toward making it happen. Python is famous for being friendly to learn, but the real secret to mastering it isn't just reading tutorials—it's writing code. That is exactly what we are going to do here.")
+
+# try it yourself from the book "Python Crash Course" by Eric Matthes-name cases-using upper() method to convert the string to uppercase,lowercase, and title() method to capitalize the first letter of each word in the string.
+first_name=input("What's your First Name? ")
+last_name=input("What's your Last Name? ")
+full_name=f"{first_name.title()} {last_name.title()}"
+print(full_name)
+print(full_name.upper())
+print(full_name.lower())
+
+#try it yourself from the book "Python Crash Course" by Eric Matthes-famous quote-using f-string to format the string and include a famous quote.
+famous_person="gandhi"
+quote="Be the change that you wish to see in the world."
+message=f'{famous_person.title()} once said ,"{quote}"'
+print(message)
+
+
+#try it yourself from the book "Python Crash Course" by Eric Matthes-striping names-using strip() method to remove any leading or trailing whitespace from the string first add whitespace using the /t and /n characters and then remove it using the strip() method.
+first_name=input("What's your First Name? ")
+last_name=input("What's your Last Name? ")
+full_name=f"{first_name.title()} {last_name.title()}"
+print(f"\t{full_name}\n")  
+full_name_s=f"\t{first_name.title()}\n {last_name.title()}\t"
+print(full_name_s)  #prints the full name with a tab between the first and last name
+
+print(full_name.lstrip())  #removes the leading whitespace from the full name
+print(full_name.rstrip())  #removes the trailing whitespace from the full name
+print(full_name.strip())  #removes the leading and trailing whitespace from the full name
+
+
+
 
